@@ -1,0 +1,27 @@
+{
+  "name": "cucumber-autotest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cucumber": "cucumber.js.cmd -t @loginout"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wsdxl/cucumber-autotest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wsdxl/cucumber-autotest/issues"
+  },
+  "homepage": "https://github.com/wsdxl/cucumber-autotest#readme",
+  "devDependencies": {
+    "chromedriver": "^2.31.0",
+    "cucumber": "^1.3.3",
+    "geckodriver": "^1.8.0",
+    "iedriver": "^3.4.0",
+    "selenium-webdriver": "^3.5.0"
+  }
+}
